@@ -1,2 +1,3 @@
-# High-Accuracy-Image-Classification-Using-GPU-and-FPGA
-GPU and FPGA performance for high-accuracy image classification tasks in computer vision and machine learning. 
+# High-Accuracy-Image-Classification-Using-CPU-GPU-FPGAs
+CPU, GPU and FPGA performance for high-accuracy image classification tasks in machine learning. 
+Investigated the performance of secure machine learning on GPU and FPGA using the CIFAR-10 dataset. Training the dataset with VGG16 model revealed significant variations in performance across different hardware setups. While running the dataset on the CPU incurred a considerable overhead time of 1 hour and 38 minutes, resulting in an accuracy of 74.81%, implementing a CNN on the GPU substantially reduced the processing time to just 4 minutes and 29 seconds, achieving an accuracy of 75.66%. Interestingly, although the VGG-16 model exhibited slower performance on the GPU, with a runtime of 31 minutes and 32 seconds, it boasted the highest accuracy of 86.44%. Moving forward, aim to save the trained model in an appropriate format, such as .tflite, for implementation on the FPGA by system interfacing.
